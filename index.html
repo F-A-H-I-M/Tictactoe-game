@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <style>
+     
+     *{
+         padding:0;
+         margin:0;
+         text-align:center;
+         
+         
+     }
+     
+     header{
+         border:solid 0.1em gray;         
+         background-color:darkgray;
+         padding:0.3rem;
+     }
+     
+     h1{
+         color:#060055;
+     } 
+     
+     #creator{
+         color:#50506a;
+     }
+     
+     #name{
+         color:white;
+         font-size:1.3rem;
+     }
+     
+     #tablediv{
+     
+      background-color:#e1e1e1;
+      padding:1rem;
+     }
+     
+     #table{        
+         margin:1em auto;         
+         background-color:#000165;                  
+     }
+     
+  
+                    
+     .td{
+         
+         border:solid 0.1em #000165;
+         height:6rem;
+         width:6rem;         
+         background-color:#738dc5;
+         font-size:3rem;
+      }  
+      
+      
+     #noticebox{
+         font-size:2rem;
+         color:#482d59;        
+         padding:1rem;
+         
+     }
+     
+     #start{
+        font-size:2em;
+        color:#00027d;
+        background-color:#c4c4c4;
+        margin:0.6em;
+        padding:0.2em 0.4em;
+        Border-radius:1em 1em;
+        border:#00027d 0.1em solid;
+     }   
+        
+      
+      
+      
+          
+        
+    </style>           
+</head>
+<body>
+ <header>
+  <h1>TIK-TAK-TOE</h1>
+  <p id="creator"><i>made by<p id="name">Md.Fahim Foysal</i></p></p>
+ </header>
+ 
+ <main>
+  <div id="tablediv"> 
+  <table id="table">
+  
+ 
+      
+   <tr class="tr">
+    <td class ="td" id="td1"><p class="tdp"  id="td1p"></p></td>  
+    <td class ="td" id="td2"><p class="tdp" id="td2p"></p></td>  
+    <td class ="td" id="td3"><p class="tdp" id="td3p"></p></td>       
+   </tr> 
+ 
+   <tr class="tr">
+     <td class ="td" id="td4"><p class="tdp" id="td4p"></p></td>
+     <td class ="td" id="td5"><p class="tdp" id="td5p"></p></td>
+     <td class ="td" id="td6"><p class="tdp" id="td6p"></p></td>
+   </tr>  
+  
+   <tr class="tr">
+     <td class ="td" id="td7"><p class="tdp" id="td7p"></p></td>
+     <td class ="td" id="td8"><p class="tdp" id="td8p"></p></td>
+     <td class ="td" id="td9"><p class="tdp" id="td9p"></p></td>
+   </tr>
+   
+     
+      
+       
+  </table>
+  </div>
+    
+    
+ <b><div id="noticebox"></div></b>
+  <button id="start" type="button" onclick="start()">start</button>
+    
+     
+     
+     
+ </main>
+     
+     
+ 
+    
+</body>
+<script src="tictactoe.js"></script>
+</html>
